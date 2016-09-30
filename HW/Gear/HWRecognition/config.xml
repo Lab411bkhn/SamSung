@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://yourdomain/HWRecognition" version="1.0.0" viewmodes="maximized">
+    <tizen:application id="s0ch49gSqD.HWRecognition" package="s0ch49gSqD" required_version="2.2"/>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <icon src="icon.png"/>
+    <name>HWRecognition</name>
+    <tizen:metadata key="AccessoryServicesLocation" value="res/xml/accessoryservices.xml"/>
+    <tizen:privilege name="http://tizen.org/privilege/application.launch"/>
+    <tizen:privilege name="http://developer.samsung.com/privilege/accessoryprotocol"/>
+    <tizen:setting hwkey-event="enable"/>
+    <tizen:profile name="wearable"/>
+</widget>

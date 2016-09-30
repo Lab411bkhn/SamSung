@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SurfaceViewVideo</string>
+    <string name="action_stream">Stream to IP</string>
+    <string name="url_path">Enter url of IPcamera</string>
+    <string name="mail_address">Enter mail address</string>
+    <string name="url_sample">rtsp://</string>
+    <string name="enter_link">Open Stream</string>
+    <string name="cancel">Cancel</string>
+    <string name="action_send">Send Mail</string>
+    <string name="action_cap">Detect Motion</string>
+    <string name="action_stop">Stop</string>
+
+</resources>

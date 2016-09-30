@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.surfaceviewvideo.MainActivity" >
+
+    <item
+        android:id="@+id/action_stream"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_stream"/>
+    <item
+        android:id="@+id/action_send"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_send"/>
+    <item
+        android:id="@+id/action_cap"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_cap"/>
+    <item
+        android:id="@+id/action_stop"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_stop"/>
+</menu>

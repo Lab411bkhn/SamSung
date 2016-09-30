@@ -1,0 +1,104 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+	<TextView
+        android:layout_width="match_parent"
+        android:layout_height="5px"
+        android:background="#008040"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <RadioGroup
+                android:id="@+id/rg_tables"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rb_alphabets"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="ALPHABETS" />
+
+                <RadioButton
+                    android:id="@+id/rb_math"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MATH" />
+
+                <RadioButton
+                    android:id="@+id/rb_numbers"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NUMBERS" />
+                <RadioButton
+                    android:id="@+id/rb_mat_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MAT_NUM" />
+            </RadioGroup>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+	<TextView
+        android:layout_width="match_parent"
+        android:layout_height="5px"
+        android:background="#008040"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <Button
+        android:id="@+id/btn_loadNet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Load Networks" />
+
+    <Button
+        android:id="@+id/btn_detectCharacter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detect Character" />
+
+    <ImageView
+        android:id="@+id/imv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/co" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_hwDetected"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="200px" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_clean"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clean" />
+
+</LinearLayout>
